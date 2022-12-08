@@ -1,19 +1,42 @@
-body{
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki:wght@400;700&display=swap');
+
+:root{
+ --primary-color: #7C3AED;
 }
 
-h1{
-    color: blue;
+body {
+    font-family: 'Noto Serif Khojki', serif;
 }
 
-h2{
-    color: green;
+hr{
+    margin: 2rem 0rem;
 }
 
-#lib-header {
-    color: gray;
+.container {
+padding: 0rem 1rem;
 }
 
-.para {
-    color: pink;
+/* css box model */
+/* MBPC - margin, border, padding, content */
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
 }
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary{
+   background-color: var(--primary-color);
+border-radius: 0.5rem;
+color: white;
+}
+
+.link-secondary{ 
+    background-color: var(--primary-color);
+ border-radius: 0.5rem;
+border: 1px solid var(--primary-color);
+ }

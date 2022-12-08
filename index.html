@@ -8,8 +8,8 @@
     <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
-    <h1 id="lib-header">Kavitha's component library</h1>
-    <p class="para">
+    <h1>Kavitha's component library</h1>
+    <p>
       I am attending neog.camp and I want to make a library which would make all
       my projects look good and consistent
     </p>
@@ -22,27 +22,32 @@
       Let me show you teh normal text. This is free flowing and will wrap at the
       end like a paragraph.
     </p>
-    <small class="para">This is relatively smaller text</small>
+    <p>This paragraph will have a <strong>bold</strong> text</p>
+
+    <small>This is relatively smaller text</small>
     <hr />
     <h2>@container</h2>
     <h3>fluid container</h3>
-    <div>This is a fluid container and it will go till the end of the page</div>
+    <div class="container">
+      This is a fluid container and it will go till the end of the page
+    </div>
 
     <h3>center container</h3>
-    <div>
+    <div class="container container-center">
       This is a centered container and it will go till the specified width
     </div>
     <hr />
 
     <h2>@links</h2>
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary Link</a>
+    <a class="link link-primary" href="/">Primary Link</a>
+    <a class="link link-secondary" href="/">Secondary Link</a>
 
     <hr />
 
     <h2>@lists</h2>
 
     <h3>unordered list</h3>
+    <p>This list will not have the bullet</p>
 
     <ul>
       <li>Item One</li>
