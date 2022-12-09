@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki:wght@400;700&display=swap');
 
 :root{
- --primary-color: #42f0d3;
+ --primary-color: #9042f0;
  --dark-gray : #6B7280;
  --off-white : #F3F4F6;
 }
@@ -39,12 +39,9 @@ padding: 0rem 1rem;
 }
 
 .link-primary{
-    max-width: 140px;
-    padding: 0.6rem 1.2rem;
-    background-color: var(--primary-color);
-    color: white;
-    margin: 1rem auto;
-    border-radius: 2rem;
+    background-color: white;
+ border-radius: 0.5rem;
+border: 1px solid var(--primary-color);
 }
 
 .link-secondary{ 
