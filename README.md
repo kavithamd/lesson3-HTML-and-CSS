@@ -18,16 +18,15 @@ You can check some of my projects and blogs here.
 * https://kavithamd.netlify.app/
 
 ## Description
-    This portfolio has a home page with an introduction, projects page, Blogs page 
-    and footer with social media handles.
+    This portfolio has a home page with an introduction, projects page, Blogs page and footer 
+    with social media handles.
 
     It has a navigation bar to navigate to other pages.
 
-    Projects are listed in the projects section which
-    contains links of live project and source code of each project.
+    Projects are listed in the projects section which contains links of live project and source 
+    code of each project.
 
-    Blogs page containe 2 blogs. 
-    Website is responsive.
+    Blogs page containe 2 blogs and the Website is responsive.
 
 ### Home page
 <img width="935" alt="homepage1" src="https://user-images.githubusercontent.com/67830635/212015788-23ba27c2-eeea-46aa-9ff6-9749a045b359.png">
