@@ -18,7 +18,8 @@ You can check some of my projects and blogs here.
 * https://kavithamd.netlify.app/
 
 ## Description
-    This portfolio has a home page with an introduction, projects page, Blogs page and footer with social media handles.
+    This portfolio has a home page with an introduction, projects page, Blogs page 
+    and footer with social media handles.
 
     It has a navigation bar to navigate to other pages.
 
